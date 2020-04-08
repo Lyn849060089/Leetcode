@@ -1,5 +1,9 @@
 package hot_100;
 
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。
  *
@@ -18,8 +22,40 @@ package hot_100;
  */
 public class Solution_1 {
 
-    public int[] twoSum(int[] nums, int target) {
+    public static void main(String[] args) throws Exception {
+        Solution_1 solution1 = new Solution_1();
+        int[] nums = {2, 7, 11, 15};
+        int target = 9;
+        long start = System.currentTimeMillis();
+        int[] res = solution1.twoSum(nums, target);
+        long end = System.currentTimeMillis() - start;
+        System.out.println("用时：" + end + "ms");
+        System.out.println(Arrays.toString(res));
+    }
 
-        return null;
+    /**
+     * 一遍哈希表法
+     *
+     * 时间复杂度O(n)
+     *  只遍历了一次，表中的每次查找只花费O(1)的时间
+     * 空间复杂度O(n)
+     *  哈希表最多储存n个元素
+     *
+     * @param nums 已知数组
+     * @param target 目标值
+     * @return 返回的数组下表
+     * @throws Exception 无解
+     */
+    public int[] twoSum(int[] nums, int target) throws Exception {
+
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int _target = target - nums[i];
+            if (map.containsKey(_target)) {
+                return new int[] {map.get(_target), i};
+            }
+            map.put(nums[i], i);
+        }
+        throw new Exception("Not found");
     }
 }

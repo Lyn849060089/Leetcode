@@ -1,4 +1,4 @@
-package hot_100;
+package leetcode;
 
 import utils.UnionFind;
 

@@ -43,6 +43,10 @@ public class UnionFind {
         count--;
     }
 
+    public boolean isConnected(int m, int n) {
+        return find(m) == find(n);
+    }
+
     public int getCount() {
         return count;
     }
@@ -52,9 +56,9 @@ public class UnionFind {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < parent.length; i++) {
             if (i != parent.length - 1) {
-                sb.append(parent[i]).append(" -> ");
+                sb.append(find(i)).append(" -> ");
             } else {
-                sb.append(parent[i]);
+                sb.append(find(i));
             }
         }
         return sb.toString();

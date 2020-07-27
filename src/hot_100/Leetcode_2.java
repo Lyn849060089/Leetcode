@@ -23,7 +23,7 @@ class ListNode {
     ListNode(int x) { val = x; }
 }
 
-public class Solution_2 {
+public class Leetcode_2 {
 
     /**
      * 时间复杂度 O(max(m,n))

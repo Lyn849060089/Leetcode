@@ -26,7 +26,7 @@ import java.util.TreeMap;
  * 链接：https://leetcode-cn.com/problems/add-and-search-word-data-structure-design
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class Solution_211 {
+public class Leetcode_211 {
 }
 
 class WordDictionary {

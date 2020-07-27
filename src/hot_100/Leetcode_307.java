@@ -23,7 +23,7 @@ import java.util.Arrays;
  * 链接：https://leetcode-cn.com/problems/range-sum-query-mutable
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class Solution_307 {
+public class Leetcode_307 {
 
     public static void main(String[] args) {
         int[] arr = {0, -8};

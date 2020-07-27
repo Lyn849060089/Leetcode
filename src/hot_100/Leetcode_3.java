@@ -27,10 +27,10 @@ import java.util.Map;
  * 链接：https://leetcode-cn.com/problems/longest-substring-without-repeating-characters
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class Solution_3 {
+public class Leetcode_3 {
 
     public static void main(String[] args) {
-        Solution_3 solution3 = new Solution_3();
+        Leetcode_3 solution3 = new Leetcode_3();
         String str = "adfhqwkjhdkacfa";
         int res = solution3.lengthOfLongestSubstring(str);
         System.out.println(res);

@@ -20,7 +20,7 @@ import java.util.TreeMap;
  * 链接：https://leetcode-cn.com/problems/map-sum-pairs
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class Solution_677 {
+public class Leetcode_677 {
 }
 
 class MapSum {

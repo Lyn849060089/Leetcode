@@ -21,7 +21,7 @@ package hot_100;
  * 链接：https://leetcode-cn.com/problems/path-sum
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class Solution_112 {
+public class Leetcode_112 {
     public boolean hasPathSum(TreeNode root, int sum) {
         if (root == null) {
             return false;

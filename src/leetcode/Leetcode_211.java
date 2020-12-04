@@ -7,7 +7,7 @@ import java.util.TreeMap;
  *
  * void addWord(word)
  * bool search(word)
- * search(word) 可以搜索文字或正则表达式字符串，字符串只包含字母 . 或 a-z 。 . 可以表示任何一个字母。
+ * search(word) 可以搜索文字或正则表达式字符串，字符串只包含字母 . 或 a-z 。 . 可以表示任何一个字母。
  *
  * 示例:
  *
@@ -20,7 +20,7 @@ import java.util.TreeMap;
  * search("b..") -> true
  * 说明:
  *
- * 你可以假设所有单词都是由小写字母 a-z 组成的。
+ * 你可以假设所有单词都是由小写字母 a-z 组成的。
  *
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/add-and-search-word-data-structure-design
